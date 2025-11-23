@@ -39,12 +39,14 @@ The full workflow leverages Azure Data Lake Storage (ADLS) for scalable cloud st
 - All transformation logic is explained step by step, with best practices for distributed processing.
 
 ---
-
 ## 4. 🏆 Gold Layer (presentation): Business-Ready Analytics
 
 - Final aggregations, metrics, and analytical outputs are written to the ADLS **presentation** folder and Gold tables.
 - Example: Calculate the number of race wins per driver using Spark SQL on cleaned Silver data.
 - Notebooks focus on extracting insights tailored for decision-makers (leaderboards, statistics, etc.).
+- **Key Final Presentation/Analysis Files:**
+    - **Presentation 4:** Deep-dive analysis covering predictive performance modeling, driver and constructor statistics, and season insights. See `presentation/4_final_analysis.ipynb` for detailed analytics workflows and results.
+    - **Presentation 5:** Advanced reporting with interactive visualizations, summary dashboards, and business-impact metrics. Refer to `presentation/5_summary_report.ipynb` for executive-level conclusions, visuals, and key takeaways.
 
 
 ---
